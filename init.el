@@ -2,6 +2,7 @@
 (setq inhibit-startup-message t
 	  cursor-type 'barC)
 
+;; Dif
 
 (global-set-key (kbd "<escape>") 'keyboard-escape-quit)
 (global-hl-line-mode t)
@@ -50,7 +51,7 @@
  '(custom-safe-themes
    '("6945dadc749ac5cbd47012cad836f92aea9ebec9f504d32fe89a956260773ca4" "02f57ef0a20b7f61adce51445b68b2a7e832648ce2e7efb19d217b6454c1b644" default))
  '(package-selected-packages
-   '(rust-mode vterm lsp-mode go-mode dashboard-hackernews dashboard hydra evil-collection evil helpful ivy-rich counsel ivy which-key doom-themes all-the-icons doom-modeline auto-package-update use-package))
+   '(magit rust-mode vterm lsp-mode go-mode dashboard-hackernews dashboard hydra evil-collection evil helpful ivy-rich counsel ivy which-key doom-themes all-the-icons doom-modeline auto-package-update use-package))
  '(warning-suppress-types '((comp))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
