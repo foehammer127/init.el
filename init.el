@@ -221,6 +221,7 @@
 (use-package rust-mode)
 (use-package vterm)
 
+;; Magit (Git Stuff)
 (use-package magit
 	:bind
 	("C-x g" . magit-status))
