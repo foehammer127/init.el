@@ -2,8 +2,6 @@
 (setq inhibit-startup-message t
 	  cursor-type 'barC)
 
-;; Dif
-
 (global-set-key (kbd "<escape>") 'keyboard-escape-quit)
 (global-hl-line-mode t)
 (line-number-mode t)
