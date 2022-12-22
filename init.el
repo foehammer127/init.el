@@ -74,6 +74,8 @@
 (doom-modeline-mode 1)
 (use-package all-the-icons)
 
+(use-package projectile)
+
 (use-package which-key
   :config
   (which-key-mode)
@@ -219,3 +221,7 @@
 (use-package go-mode)
 (use-package rust-mode)
 (use-package vterm)
+
+(use-package magit
+	:bind
+	("C-x g" . magit-status))
