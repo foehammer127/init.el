@@ -147,6 +147,7 @@
   (foe/leader-keys
 	"t" '(:ignore t :which-key "toggles")
 	"o" '(:ignore o :which-key "open")
+	"l" '(:ignore l :which-key "clojure bindings")
    "tt" '(counsel-load-theme :which-key "choose theme")))
 
 
@@ -223,10 +224,16 @@
 (use-package rust-mode)
 (use-package vterm)
 (use-package haskell-mode)
-;; Clojure Specific
+
+
+
+
+;; Clojure Specific Stuff
 (use-package clojure-mode)
 (use-package cider)
-
+(foe/leader-keys
+  "ll" '(cider-jack-in :which-key "Open new Live Repl of Clojure Project")
+ )
 
 ;; Magit (Git Stuff)
 (use-package magit
