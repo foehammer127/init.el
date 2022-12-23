@@ -205,7 +205,7 @@
   (dashboard-setup-startup-hook)
   :custom
   (dashboard-banner-logo-title "Wassup Bro")
-  (dashboard-startup-banner '"E")
+  (dashboard-startup-banner 'logo)
   (dashboard-center-content t)
   (dashboard-set-navigator t)
   (dashboard-set-heading-icons t)
