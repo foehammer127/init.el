@@ -218,13 +218,11 @@
 
 (use-package lsp-mode)
 
-
 ;; Language Specific Modes
 (use-package go-mode)
 (use-package rust-mode)
 (use-package vterm)
 (use-package haskell-mode)
-
 
 
 
