@@ -200,7 +200,7 @@
 (use-package hydra)
 
 (use-package dashboard
-  :after (all-the-icons dashboard-hackernews)
+  :after (all-the-icons) 
   :init
   (dashboard-setup-startup-hook)
   :custom
@@ -211,10 +211,8 @@
   (dashboard-set-heading-icons t)
   (dashboard-set-file-icons t)
   (dashboard-items '((projects . 5)
-                     (recents . 5)
-                     (hackernews . 5))))
+                     (recents . 5))))
 
-(use-package dashboard-hackernews)
 
 (use-package lsp-mode)
 
