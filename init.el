@@ -49,7 +49,7 @@
  '(custom-safe-themes
    '("512ce140ea9c1521ccaceaa0e73e2487e2d3826cc9d287275550b47c04072bc4" "7a424478cb77a96af2c0f50cfb4e2a88647b3ccca225f8c650ed45b7f50d9525" "6945dadc749ac5cbd47012cad836f92aea9ebec9f504d32fe89a956260773ca4" "02f57ef0a20b7f61adce51445b68b2a7e832648ce2e7efb19d217b6454c1b644" default))
  '(package-selected-packages
-   '(general cider clojure-mode haskell-mode magit rust-mode vterm lsp-mode go-mode dashboard-hackernews dashboard hydra evil-collection evil helpful ivy-rich counsel ivy which-key doom-themes all-the-icons doom-modeline auto-package-update use-package))
+   '(zig-mode general cider clojure-mode haskell-mode magit rust-mode vterm lsp-mode go-mode dashboard-hackernews dashboard hydra evil-collection evil helpful ivy-rich counsel ivy which-key doom-themes all-the-icons doom-modeline auto-package-update use-package))
  '(warning-suppress-types '((comp))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
@@ -223,7 +223,7 @@
 (use-package rust-mode)
 (use-package vterm)
 (use-package haskell-mode)
-
+(use-package zig-mode)
 
 
 ;; Clojure Specific Stuff
