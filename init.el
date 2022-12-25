@@ -233,7 +233,7 @@
   "ll" '(cider-jack-in :which-key "Open new Live Repl of Clojure Project")
  )
 
-;; Magit (Git Cliente)
+;; Magit (Git Client)
 (use-package magit
 	:bind
 	("C-x g" . magit-status))
