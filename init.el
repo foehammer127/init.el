@@ -86,7 +86,9 @@
 (use-package ivy
   :bind(("C-s" . swiper)
 	:map ivy-minibuffer-map
-	("TAB" . ivy-alt-done)
+	("TAB" . ivy-alt-done
+
+	 )
 	("C-l" . ivy-alt-done)
 	("C-j" . ivy-next-line)
 	("C-k" . ivy-previous-line)
@@ -231,7 +233,7 @@
   "ll" '(cider-jack-in :which-key "Open new Live Repl of Clojure Project")
  )
 
-;; Magit (Git Client)
+;; Magit (Git Cliente)
 (use-package magit
 	:bind
 	("C-x g" . magit-status))
