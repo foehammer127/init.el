@@ -150,7 +150,9 @@
 	"t" '(:ignore t :which-key "toggles")
 	"o" '(:ignore o :which-key "open")
 	"l" '(:ignore l :which-key "clojure bindings")
-   "tt" '(counsel-load-theme :which-key "choose theme")))
+	"tt" '(counsel-load-theme :which-key "choose theme")
+	"s" '(shell-command :which-key "run-shell-command")
+	))
 
 
 (foe/leader-keys
